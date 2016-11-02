@@ -1,0 +1,35 @@
+# Helpful utilities for developers which should never be deployed.
+
+-r build.txt
+
+# If you vendor your own packages for production and CI but don't care as much
+# about dev-machine-only utilities, add PyPI as an extra index url:
+--extra-index-url https://pypi.python.org/simple
+
+# Since these packages are only for developer convenience and are not
+# used to build or run the project, they do not need to be pinned to
+# a specific version.
+
+# IPython: better interactive shell
+# Works automatically with `./manage.py shell`
+ipython
+
+# IPython pdb: better debugger
+# https://github.com/gotcha/ipdb
+ipdb
+
+# pprint++: better pretty-printing
+# https://github.com/wolever/pprintpp
+pp-ez
+
+# click: includes some handy command line utilities
+# http://click.pocoo.org/6/utils/
+click
+
+# sqlparse: handy for printing sql queries
+# https://sqlparse.readthedocs.io/en/latest/api/#formatting
+sqlparse
+
+# Django Debug Toolbar: lots of great development features
+# https://github.com/jazzband/django-debug-toolbar
+django-debug-toolbar

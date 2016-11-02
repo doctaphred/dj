@@ -1,0 +1,11 @@
+# Universal requirements for this project.
+
+# If you vendor your own packages, point this URL to your index:
+--index-url https://pypi.python.org/simple
+
+# Don't include indirect dependencies in this file -- just the packages
+# you use directly within the project.
+
+# Always pin to an exact version -- run `pip freeze` for example output.
+
+Django==1.10.3

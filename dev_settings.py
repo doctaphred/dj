@@ -17,6 +17,7 @@ SECRET_KEY = '1'
 AUTH_PASSWORD_VALIDATORS = []
 
 INSTALLED_APPS = [
+    'dev',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
